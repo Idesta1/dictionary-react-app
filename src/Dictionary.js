@@ -30,7 +30,15 @@ export default function Dictionary() {
         <div className="Dictionary">
             <h1>My Dictionary</h1>
             <form onSubmit={search}>
-                <input type="search" placeholder="Search for a word..."  onChange={handleKeywordChange} />
+               <div className="row">
+               <div className="col-9">
+                <input type="search" className="form-control" placeholder="Search for a word..." onChange={handleKeywordChange}/> 
+                </div>
+                <div className="col-3">
+                <input type="submit" value="Search" className="btn btn-info" />
+                
+                </div>
+                </div>
                <Results results={results} />
             </form>
             </div>
