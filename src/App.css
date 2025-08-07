@@ -1,5 +1,45 @@
+.App Header {
+  text-align: center;
+  background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 3px solid;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+
+
+
 
 .App footer{
-  font-size: 12px;
-  text-align: center;
+    text-align: center;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid;
+    margin: 0 auto;
+    max-width: 800px;
+    
+}
+.App ul{
+    list-style: none;
+}
+.App a{
+  text-decoration: none;
+  color: white;
+}
+.App h1{
+  border: 1px solid;
+  padding: 10px;
+}
+.App h3{
+  border: 1px solid;
+  padding: 10px;
 }

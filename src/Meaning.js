@@ -9,9 +9,9 @@ export default function Meaning(props) {
         {props.meaning.definitions.map(function(definition, index) {
            return (
             <div key={index}>
-            <p><strong>Definition:</strong>{definition.definition}
+            <p>{definition.definition}
                 <br/>
-              <strong>Example:</strong>{definition.example}
+              <em>{definition.example}</em>
         </p>
         <Synonyms synonyms={definition.synonyms} />
                 </div>

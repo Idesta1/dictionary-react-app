@@ -5,24 +5,31 @@ import Phonetic from "./Phonetic";
 export default function Results(props) {
     if (props.results) {
            return (
+            
            <div className="Results mt-5">
-            <h2>{props.results.word}</h2>
+            <section>
+            <h2>
+             {props.results.word
+              ? props.results.word.charAt(0).toUpperCase() + props.results.word.slice(1)
+             : ""}
+           </h2>
             {props.results.phonetics.map(function(phonetic, index) {
-             return (
-            <div key={index}>
+                return (
+                <div key={index}>
             <Phonetic phonetic={phonetic} />
             </div>
-              );
-           })}
+             );
+             })}
+           </section>
             {props.results.meanings.map(function(meaning, index) {
              return (
-             <div key={index}>
+             <section key={index}>
                 <Meaning meaning={meaning} />
-             </div> 
+             </section> 
              );
             })}
         </div>
-        )
+        );
     } else {
         return null;
     }
