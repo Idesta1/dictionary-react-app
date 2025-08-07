@@ -20,13 +20,13 @@ export default function App() {
           <div>
             <h3>Find out more</h3>
             <ul>
-        <a href = "https://iglesia-portfolio-shecode-hw.netlify.app/">
+        <a href = "https://iglesia-portfolio-shecode-hw.netlify.app/" target="_blank" rel="noreferrer">
         <li>Coded by Iglesia G Desta  &copy; 2025 and is </li>
         </a>
-        <a href="https://github.com/Idesta1/dictionary-react-app">
+        <a href="https://github.com/Idesta1/dictionary-react-app" target="_blank" rel="noreferrer">
         <li>open-sourced on GitHub and</li>
         </a>
-        <a href="https://shecode-dictionary-react-app.netlify.app/"><li>hosted on Netlify</li>
+        <a href="https://shecode-dictionary-react-app.netlify.app/"target="_blank" rel="noreferrer"><li>hosted on Netlify</li>
         </a>
       </ul>
       </div>
