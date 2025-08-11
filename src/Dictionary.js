@@ -12,6 +12,7 @@ export default function Dictionary() {
     const[keyword, setKeyword] = useState("Sunset");
     const[results, setResults] = useState(null);
     const[photos, setPhotos] = useState(null);
+    
   
     
     

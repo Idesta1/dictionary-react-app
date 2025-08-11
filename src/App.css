@@ -2,10 +2,6 @@ body {
   background: #f9f8fe;
 }
 
-a {
-  color: #9670f4;
-}
-
 .App {
   max-width: 960px;
   margin: 0 auto;
@@ -21,8 +17,6 @@ a {
   
 }
 
-
-
 .App-footer {
   text-align: center;
   background: #020024;
@@ -32,8 +26,9 @@ a {
   background-size: cover;
   background-position: center;
   border: 3px solid;
-  margin: 0 auto;
+  padding: 20px;
 }
+
 .App-footer ul{
   list-style: none;
   padding: 0; 
